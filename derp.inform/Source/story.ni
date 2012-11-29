@@ -4,6 +4,9 @@
 Licking is an action applying to one thing. Understand "lick [something]" as licking.
 Tweeting is an action applying to one thing. Understand "tweet about [something]" or "tweet [something]" as tweeting.
 
+[Defaults for verbs]
+Instead of tweeting anything, say "You have nothing to tweet about that."
+
 [Rooms]
 The Men's restroom is a room. "God it stinks like piss in here." It is south of the Hallway.
 	A urinal is here. It is not portable. The description of the urinal is "This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for."

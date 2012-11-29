@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1729b440" />
+  <activeNode nodeId="node-0x172615e0" />
   <item nodeId="node-0x1d78a30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -20,7 +20,7 @@ You can see an urinal (in which is an urinal cake) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="190">NO</temporary>
+    <temporary score="203">NO</temporary>
     <children>
       <child nodeId="node-0x1e04a50" />
       <child nodeId="node-0x1c5304f0" />
@@ -29,6 +29,7 @@ You can see an urinal (in which is an urinal cake) here.
       <child nodeId="node-0x16a24f50" />
       <child nodeId="node-0xd02aaa0" />
       <child nodeId="node-0x1725dfe0" />
+      <child nodeId="node-0x1c53fe20" />
       <child nodeId="node-0x1728f1a0" />
       <child nodeId="node-0x1c53bb40" />
       <child nodeId="node-0x1c5b4490" />
@@ -108,6 +109,153 @@ Jesus Christ.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="139">YES</temporary>
+  </item>
+  <item nodeId="node-0x1c53fe20">
+    <command xml:space="preserve">tweet</command>
+    <result xml:space="preserve">(the urinal)
+You whip out your iPhone and take a few Instagram shots of the urinal. You feel validated.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d1b100" />
+      <child nodeId="node-0x17450420" />
+    </children>
+  </item>
+  <item nodeId="node-0x17450420">
+    <command xml:space="preserve">tweet</command>
+    <result xml:space="preserve">(the urinal)
+You whip out your iPhone and take a few Instagram shots of the urinal. You feel validated.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x172b84e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x172b84e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5d93f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5d93f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain (on which is a button) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x172d50d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x172d50d0">
+    <command xml:space="preserve">tweet n</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c582c20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c582c20">
+    <command xml:space="preserve">tweet button</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+    <children>
+      <child nodeId="node-0x17267f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x17267f60">
+    <command xml:space="preserve">tweet fountain</command>
+    <result xml:space="preserve">You try to come up with some clever hashtags for fountains and fail.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="196">YES</temporary>
+  </item>
+  <item nodeId="node-0x1d1b100">
+    <command xml:space="preserve">tweet n</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x172b63c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x172b63c0">
+    <command xml:space="preserve">tweet s</command>
+    <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x16979540" />
+    </children>
+  </item>
+  <item nodeId="node-0x16979540">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dd3cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dd3cc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain (on which is a button) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0x172615e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x172615e0">
+    <command xml:space="preserve">tweet button</command>
+    <result xml:space="preserve">You have nothing to tweet about that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="202">YES</temporary>
   </item>
   <item nodeId="node-0x1725dfe0">
     <command xml:space="preserve">tweet cake</command>
@@ -220,7 +368,6 @@ You can see a toilet here.
     <changed>YES</changed>
     <temporary score="171">YES</temporary>
     <children>
-      <child nodeId="node-0x16a20420" />
       <child nodeId="node-0x1bf2ae0" />
       <child nodeId="node-0x16a17920" />
     </children>
@@ -282,51 +429,6 @@ You can see a water fountain (on which is a button) here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="170">YES</temporary>
-  </item>
-  <item nodeId="node-0x16a20420">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Hallway
-Hospital green, with plenty of tile.
-
-You can see a water fountain here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="115">YES</temporary>
-    <children>
-      <child nodeId="node-0x1746c7b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1746c7b0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Men&apos;s restroom
-God it stinks like piss in here.
-
-You can see an urinal here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="115">YES</temporary>
-    <children>
-      <child nodeId="node-0x16afa580" />
-    </children>
-  </item>
-  <item nodeId="node-0x16afa580">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Hallway
-Hospital green, with plenty of tile.
-
-You can see a water fountain here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="115">YES</temporary>
   </item>
   <item nodeId="node-0x1b1fd60">
     <command xml:space="preserve">n</command>
@@ -650,8 +752,6 @@ In the urinal is an urinal cake.
     <changed>NO</changed>
     <temporary score="133">YES</temporary>
     <children>
-      <child nodeId="node-0x16aa1130" />
-      <child nodeId="node-0x16a57690" />
       <child nodeId="node-0x1e8f340" />
     </children>
   </item>
@@ -707,26 +807,5 @@ You can see a toilet here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="132">YES</temporary>
-  </item>
-  <item nodeId="node-0x16a57690">
-    <command xml:space="preserve">look cake</command>
-    <result xml:space="preserve">You see nothing special about the urinal cake.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="118">YES</temporary>
-  </item>
-  <item nodeId="node-0x16aa1130">
-    <command xml:space="preserve">look urinal</command>
-    <result xml:space="preserve">(the urinal)
-This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for.
-
-In the urinal is an urinal cake.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="120">YES</temporary>
   </item>
 </Skein>
