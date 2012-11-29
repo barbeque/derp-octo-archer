@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1be8060" />
+  <activeNode nodeId="node-0x1c543d10" />
   <item nodeId="node-0x1d78a30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -20,9 +20,10 @@ You can see an urinal (in which is an urinal cake) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="133">NO</temporary>
+    <temporary score="148">NO</temporary>
     <children>
-      <child nodeId="node-0x1885350" />
+      <child nodeId="node-0x1c53bb40" />
+      <child nodeId="node-0x1728f1a0" />
       <child nodeId="node-0x174291f0" />
       <child nodeId="node-0x172800e0" />
       <child nodeId="node-0x16a24f50" />
@@ -130,10 +131,8 @@ In the urinal is an urinal cake.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="128">YES</temporary>
+    <temporary score="148">YES</temporary>
     <children>
-      <child nodeId="node-0x1eb4f90" />
-      <child nodeId="node-0x16a52ed0" />
       <child nodeId="node-0x1b1fd60" />
       <child nodeId="node-0x16959b90" />
     </children>
@@ -264,11 +263,86 @@ You can see a water fountain here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="107">YES</temporary>
+    <temporary score="148">YES</temporary>
     <children>
       <child nodeId="node-0x1dbb8c0" />
       <child nodeId="node-0x1697e6c0" />
+      <child nodeId="node-0x1b0fe60" />
     </children>
+  </item>
+  <item nodeId="node-0x1b0fe60">
+    <command xml:space="preserve">lick fountain</command>
+    <result xml:space="preserve">You lap at the fountain but water doesn&apos;t come out.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="148">YES</temporary>
+    <children>
+      <child nodeId="node-0x17282f60" />
+    </children>
+  </item>
+  <item nodeId="node-0x17282f60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="148">YES</temporary>
+    <children>
+      <child nodeId="node-0x16903800" />
+    </children>
+  </item>
+  <item nodeId="node-0x16903800">
+    <command xml:space="preserve">lick toilet</command>
+    <result xml:space="preserve">Jesus Christ.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="148">YES</temporary>
+    <children>
+      <child nodeId="node-0x169ae830" />
+    </children>
+  </item>
+  <item nodeId="node-0x169ae830">
+    <command xml:space="preserve">lick couch</command>
+    <result xml:space="preserve">You are some kind of pervert, aren&apos;t you?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="148">YES</temporary>
+    <children>
+      <child nodeId="node-0x172b43b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x172b43b0">
+    <command xml:space="preserve">lick tree</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="148">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c543d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c543d10">
+    <command xml:space="preserve">lick</command>
+    <result xml:space="preserve">(the toilet)
+Jesus Christ.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="147">YES</temporary>
   </item>
   <item nodeId="node-0x1697e6c0">
     <command xml:space="preserve">take water</command>
@@ -317,26 +391,20 @@ You can see a toilet here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="100">YES</temporary>
-  </item>
-  <item nodeId="node-0x16a52ed0">
-    <command xml:space="preserve">look line</command>
-    <result xml:space="preserve">The line reads &quot;20.&quot; John Madden would be pissed if he knew what you were doing.
-
-&gt;</result>
-    <played>YES</played>
     <changed>NO</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="138">YES</temporary>
+    <children>
+      <child nodeId="node-0x1727f5e0" />
+    </children>
   </item>
-  <item nodeId="node-0x1eb4f90">
-    <command xml:space="preserve">look white</command>
-    <result xml:space="preserve">The line reads &quot;20.&quot; John Madden would be pissed if he knew what you were doing.
+  <item nodeId="node-0x1727f5e0">
+    <command xml:space="preserve">lick couch</command>
+    <result xml:space="preserve">You are some kind of pervert, aren&apos;t you?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="37">YES</temporary>
+    <temporary score="137">YES</temporary>
   </item>
   <item nodeId="node-0x1d8d730">
     <command xml:space="preserve">look</command>
@@ -868,25 +936,35 @@ In the urinal is an urinal cake.
     <changed>YES</changed>
     <temporary score="101">YES</temporary>
   </item>
-  <item nodeId="node-0x1885350">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="43">YES</temporary>
-    <children>
-      <child nodeId="node-0x13400aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x13400aa0">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
+  <item nodeId="node-0x1728f1a0">
+    <command xml:space="preserve">lick cake</command>
+    <result xml:space="preserve">No, you have to save it for later.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="42">YES</temporary>
+    <temporary score="140">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ea5d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ea5d20">
+    <command xml:space="preserve">lick urinal</command>
+    <result xml:space="preserve">(the urinal)
+Jesus Christ.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+  </item>
+  <item nodeId="node-0x1c53bb40">
+    <command xml:space="preserve">exits</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="133">YES</temporary>
   </item>
 </Skein>
