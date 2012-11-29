@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x16959b90" />
+  <activeNode nodeId="node-0x1be8060" />
   <item nodeId="node-0x1d78a30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -12,131 +12,131 @@ derp
 An Interactive Fiction by Dr. Mike Stedman and Sir Scott Hilbert, Esq.
 Release 1 / Serial number 121128 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
-10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
+Men&apos;s restroom
+God it stinks like piss in here.
+
+You can see an urinal (in which is an urinal cake) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="18">NO</temporary>
+    <temporary score="133">NO</temporary>
     <children>
       <child nodeId="node-0x1885350" />
-      <child nodeId="node-0xd02aaa0" />
+      <child nodeId="node-0x174291f0" />
+      <child nodeId="node-0x172800e0" />
+      <child nodeId="node-0x16a24f50" />
+      <child nodeId="node-0x1ec4a10" />
       <child nodeId="node-0x1d8d730" />
+      <child nodeId="node-0xd02aaa0" />
+      <child nodeId="node-0x1e04a50" />
     </children>
   </item>
-  <item nodeId="node-0x1d8d730">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
+  <item nodeId="node-0x1e04a50">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">(the urinal)
+This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for.
+
+In the urinal is an urinal cake.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="133">YES</temporary>
     <children>
-      <child nodeId="node-0x1e8a240" />
+      <child nodeId="node-0x16aa1130" />
+      <child nodeId="node-0x16a57690" />
+      <child nodeId="node-0x1e8f340" />
     </children>
   </item>
-  <item nodeId="node-0x1e8a240">
-    <command xml:space="preserve">go 20</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d93690" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d93690">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x1e8f340">
+    <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="133">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c5338a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c5338a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="133">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bda540" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bda540">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="133">YES</temporary>
+    <children>
+      <child nodeId="node-0x1be8060" />
+    </children>
+  </item>
+  <item nodeId="node-0x1be8060">
+    <command xml:space="preserve">look couch</command>
+    <result xml:space="preserve">Black leather, surprisingly less stained than you would expect.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="132">YES</temporary>
+  </item>
+  <item nodeId="node-0x16a57690">
+    <command xml:space="preserve">look cake</command>
+    <result xml:space="preserve">You see nothing special about the urinal cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="118">YES</temporary>
+  </item>
+  <item nodeId="node-0x16aa1130">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">(the urinal)
+This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for.
+
+In the urinal is an urinal cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="120">YES</temporary>
   </item>
   <item nodeId="node-0xd02aaa0">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-20 yard line
-You feel as if you are getting further away from your goal.
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="128">YES</temporary>
     <children>
-      <child nodeId="node-0x16959b90" />
+      <child nodeId="node-0x1eb4f90" />
+      <child nodeId="node-0x16a52ed0" />
       <child nodeId="node-0x1b1fd60" />
+      <child nodeId="node-0x16959b90" />
     </children>
-  </item>
-  <item nodeId="node-0x1b1fd60">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d95750" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d95750">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x16a4fd30" />
-    </children>
-  </item>
-  <item nodeId="node-0x16a4fd30">
-    <command xml:space="preserve">exits</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b01ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b01ea0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-20 yard line
-You feel as if you are getting further away from your goal.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x1803890" />
-    </children>
-  </item>
-  <item nodeId="node-0x1803890">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
   </item>
   <item nodeId="node-0x16959b90">
     <command xml:space="preserve">s</command>
@@ -145,21 +145,728 @@ The sun blinds your eyes as you look down the ol&quot; football pitch.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="17">YES</temporary>
+    <temporary score="128">YES</temporary>
     <children>
-      <child nodeId="node-0x1de3460" />
+      <child nodeId="node-0x16a421b0" />
     </children>
   </item>
-  <item nodeId="node-0x1de3460">
+  <item nodeId="node-0x16a421b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-10 yard line
-The sun blinds your eyes as you look down the ol&quot; football pitch.
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x17232000" />
+    </children>
+  </item>
+  <item nodeId="node-0x17232000">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet and a leather couch here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="8">YES</temporary>
+    <temporary score="128">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a20420" />
+      <child nodeId="node-0x16a17920" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a17920">
+    <command xml:space="preserve">look couch</command>
+    <result xml:space="preserve">You see nothing special about the leather couch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="127">YES</temporary>
+  </item>
+  <item nodeId="node-0x16a20420">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="115">YES</temporary>
+    <children>
+      <child nodeId="node-0x1746c7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1746c7b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Men&apos;s restroom
+God it stinks like piss in here.
+
+You can see an urinal here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="115">YES</temporary>
+    <children>
+      <child nodeId="node-0x16afa580" />
+    </children>
+  </item>
+  <item nodeId="node-0x16afa580">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="115">YES</temporary>
+    <children>
+      <child nodeId="node-0x174901b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x174901b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="114">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b1fd60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dbb8c0" />
+      <child nodeId="node-0x1697e6c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1697e6c0">
+    <command xml:space="preserve">take water</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a2ce80" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a2ce80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x17280260" />
+    </children>
+  </item>
+  <item nodeId="node-0x17280260">
+    <command xml:space="preserve">take toil</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0x1dbb8c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+You can see a toilet here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="100">YES</temporary>
+  </item>
+  <item nodeId="node-0x16a52ed0">
+    <command xml:space="preserve">look line</command>
+    <result xml:space="preserve">The line reads &quot;20.&quot; John Madden would be pissed if he knew what you were doing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="39">YES</temporary>
+  </item>
+  <item nodeId="node-0x1eb4f90">
+    <command xml:space="preserve">look white</command>
+    <result xml:space="preserve">The line reads &quot;20.&quot; John Madden would be pissed if he knew what you were doing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x1d8d730">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Men&apos;s restroom
+God it stinks like piss in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a571b0" />
+      <child nodeId="node-0x1e9c060" />
+      <child nodeId="node-0x1b0a2b0" />
+      <child nodeId="node-0x1de9200" />
+    </children>
+  </item>
+  <item nodeId="node-0x1de9200">
+    <command xml:space="preserve">look toilet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a87dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a87dc0">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dc5800" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dc5800">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d0b8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d0b8e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="69">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a59470" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a59470">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="68">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b0a2b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dc3520" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dc3520">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dd3280" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dd3280">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="46">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e9c060">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d01270" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d01270">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bd3d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bd3d40">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x1ddc8a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1ddc8a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b042e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b042e0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="59">YES</temporary>
+  </item>
+  <item nodeId="node-0x16a571b0">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dcd7a0" />
+      <child nodeId="node-0x17231f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x17231f20">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Men&apos;s restroom
+God it stinks like piss in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a917d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a917d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x16945640" />
+    </children>
+  </item>
+  <item nodeId="node-0x16945640">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1691afd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1691afd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x16aa1860" />
+    </children>
+  </item>
+  <item nodeId="node-0x16aa1860">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a9fae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a9fae0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x169977b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169977b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d132c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d132c0">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a64e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a64e10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Men&apos;s restroom
+God it stinks like piss in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x17456b30" />
+    </children>
+  </item>
+  <item nodeId="node-0x17456b30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x1746d840" />
+    </children>
+  </item>
+  <item nodeId="node-0x1746d840">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="86">YES</temporary>
+    <children>
+      <child nodeId="node-0x169f5ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x169f5ae0">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="85">YES</temporary>
+  </item>
+  <item nodeId="node-0x1dcd7a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x16aaf440" />
+    </children>
+  </item>
+  <item nodeId="node-0x16aaf440">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b14510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b14510">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x16948d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x16948d10">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Men&apos;s restroom
+God it stinks like piss in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0x1ec4a10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b10d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b10d20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x174987b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x174987b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d17720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d17720">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Men&apos;s restroom
+God it stinks like piss in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x16954af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16954af0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Hallway
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a3ccd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a3ccd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a86740" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a86740">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Women&apos;s restroom
+How the fuck do they have a couch?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+  </item>
+  <item nodeId="node-0x16a24f50">
+    <command xml:space="preserve">take cake</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="116">YES</temporary>
+  </item>
+  <item nodeId="node-0x172800e0">
+    <command xml:space="preserve">look cake</command>
+    <result xml:space="preserve">This isn&apos;t exactly what you had in mind when your birthday started.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="123">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b03f140" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b03f140">
+    <command xml:space="preserve">look urinal</command>
+    <result xml:space="preserve">(the urinal)
+This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for.
+
+In the urinal is an urinal cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="122">YES</temporary>
+  </item>
+  <item nodeId="node-0x174291f0">
+    <command xml:space="preserve">take urinal</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="101">YES</temporary>
   </item>
   <item nodeId="node-0x1885350">
     <command xml:space="preserve"></command>
@@ -167,7 +874,19 @@ The sun blinds your eyes as you look down the ol&quot; football pitch.
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="43">YES</temporary>
+    <children>
+      <child nodeId="node-0x13400aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13400aa0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="42">YES</temporary>
   </item>
 </Skein>
