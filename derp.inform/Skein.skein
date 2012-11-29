@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x172615e0" />
+  <activeNode nodeId="node-0x16a88750" />
   <item nodeId="node-0x1d78a30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -20,12 +20,12 @@ You can see an urinal (in which is an urinal cake) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="203">NO</temporary>
+    <temporary score="205">NO</temporary>
     <children>
       <child nodeId="node-0x1e04a50" />
       <child nodeId="node-0x1c5304f0" />
       <child nodeId="node-0x17269550" />
-      <child nodeId="node-0x172800e0" />
+      <child nodeId="node-0x1691a100" />
       <child nodeId="node-0x16a24f50" />
       <child nodeId="node-0xd02aaa0" />
       <child nodeId="node-0x1725dfe0" />
@@ -655,29 +655,31 @@ It is fixed in place.
     <changed>YES</changed>
     <temporary score="183">YES</temporary>
   </item>
-  <item nodeId="node-0x172800e0">
-    <command xml:space="preserve">look cake</command>
-    <result xml:space="preserve">This isn&apos;t exactly what you had in mind when your birthday started.
+  <item nodeId="node-0x1691a100">
+    <command xml:space="preserve">lick urinal</command>
+    <result xml:space="preserve">(the urinal)
+Jesus Christ.
+
+You won&apos;t put your tongue on that.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="123">YES</temporary>
+    <temporary score="205">YES</temporary>
     <children>
-      <child nodeId="node-0x1b03f140" />
+      <child nodeId="node-0x16a88750" />
     </children>
   </item>
-  <item nodeId="node-0x1b03f140">
-    <command xml:space="preserve">look urinal</command>
-    <result xml:space="preserve">(the urinal)
-This urinal is cracked porcelain, stained yellow. The janitorial staff has a lot to answer for.
+  <item nodeId="node-0x16a88750">
+    <command xml:space="preserve">lick cake</command>
+    <result xml:space="preserve">No, you have to save it for later.
 
-In the urinal is an urinal cake.
+You won&apos;t put your tongue on that.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="122">YES</temporary>
+    <temporary score="204">YES</temporary>
   </item>
   <item nodeId="node-0x17269550">
     <command xml:space="preserve">n</command>
