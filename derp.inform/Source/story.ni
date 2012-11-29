@@ -9,6 +9,7 @@ The Men's restroom is a room. "God it stinks like piss in here." It is south of 
 		Before licking the urinal, say "Jesus Christ."
 	In the urinal is a urinal cake. The description of the cake is "This isn't exactly what you had in mind when your birthday started."
 		Before licking the urinal cake, say "No, you have to save it for later."
+		Instead of eating the urinal cake, say "It looks edible, but you should save it for later."
 The Women's restroom is a room. "How the fuck do they have a couch?!" It is north of the hallway.
 	A toilet is here. It is not portable.
 		Before licking the toilet, say "Jesus Christ."
@@ -21,4 +22,4 @@ The Hallway is a room. "Hospital green, with plenty of tile."
 		The description of the fountain is "Moulded hard-touch plastic envelopes the brushed-steel body of the fountain. It stands proud and gleaming in the dirty hall."
 	There is a button on the water fountain. It is not portable.
 		The description of the button is "Beautiful brushed steel, you dream one day of being able to own a device with a similar button."
-		Before pushing the button, say "Water trickles out of the fountain and you greedily lap it up."
+		Instead of pushing the button, say "Water trickles out of the fountain and you greedily lap it up."

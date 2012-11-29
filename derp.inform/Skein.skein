@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b034640" />
+  <activeNode nodeId="node-0x1dcb000" />
   <item nodeId="node-0x1d78a30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -20,13 +20,14 @@ You can see an urinal (in which is an urinal cake) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="157">NO</temporary>
+    <temporary score="171">NO</temporary>
     <children>
       <child nodeId="node-0x1c53bb40" />
       <child nodeId="node-0x1728f1a0" />
       <child nodeId="node-0x174291f0" />
       <child nodeId="node-0x172800e0" />
       <child nodeId="node-0x16a24f50" />
+      <child nodeId="node-0x1c5304f0" />
       <child nodeId="node-0x1d8d730" />
       <child nodeId="node-0xd02aaa0" />
       <child nodeId="node-0x1e04a50" />
@@ -130,7 +131,7 @@ In the urinal is an urinal cake.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="157">YES</temporary>
+    <temporary score="171">YES</temporary>
     <children>
       <child nodeId="node-0x1b1fd60" />
       <child nodeId="node-0x16959b90" />
@@ -143,7 +144,7 @@ In the urinal is an urinal cake.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="128">YES</temporary>
+    <temporary score="171">YES</temporary>
     <children>
       <child nodeId="node-0x16a421b0" />
     </children>
@@ -154,12 +155,12 @@ In the urinal is an urinal cake.
 Hallway
 Hospital green, with plenty of tile.
 
-You can see a water fountain here.
+You can see a water fountain (on which is a button) here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="128">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
     <children>
       <child nodeId="node-0x17232000" />
     </children>
@@ -170,14 +171,15 @@ You can see a water fountain here.
 Women&apos;s restroom
 How the fuck do they have a couch?!
 
-You can see a toilet and a leather couch here.
+You can see a toilet here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="128">YES</temporary>
+    <temporary score="171">YES</temporary>
     <children>
       <child nodeId="node-0x16a20420" />
+      <child nodeId="node-0x1bf2ae0" />
       <child nodeId="node-0x16a17920" />
     </children>
   </item>
@@ -189,6 +191,55 @@ You can see a toilet and a leather couch here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="127">YES</temporary>
+  </item>
+  <item nodeId="node-0x1bf2ae0">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
+    <children>
+      <child nodeId="node-0x1690be00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1690be00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
+    <children>
+      <child nodeId="node-0x1747eaf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1747eaf0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Hallway
+Hospital green, with plenty of tile.
+
+You can see a water fountain (on which is a button) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="171">YES</temporary>
+    <children>
+      <child nodeId="node-0x1dcb000" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dcb000">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">Water trickles out of the fountain and you greedily lap it up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="170">YES</temporary>
   </item>
   <item nodeId="node-0x16a20420">
     <command xml:space="preserve">s</command>
@@ -262,11 +313,12 @@ You can see a water fountain (on which is a button) here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="157">YES</temporary>
+    <temporary score="162">YES</temporary>
     <children>
       <child nodeId="node-0x1697e6c0" />
       <child nodeId="node-0x1dbb8c0" />
       <child nodeId="node-0x1b0fe60" />
+      <child nodeId="node-0xa1366a0" />
       <child nodeId="node-0x17233f90" />
     </children>
   </item>
@@ -278,6 +330,43 @@ You can see a water fountain (on which is a button) here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="150">YES</temporary>
+  </item>
+  <item nodeId="node-0xa1366a0">
+    <command xml:space="preserve">look fountain</command>
+    <result xml:space="preserve">Moulded hard-touch plastic envelopes the brushed-steel body of the fountain. It stands proud and gleaming in the dirty hall.
+
+On the water fountain is a button.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="162">YES</temporary>
+    <children>
+      <child nodeId="node-0x16911750" />
+    </children>
+  </item>
+  <item nodeId="node-0x16911750">
+    <command xml:space="preserve">look button</command>
+    <result xml:space="preserve">Beautiful brushed steel, you dream one day of being able to own a device with a similar button.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="162">YES</temporary>
+    <children>
+      <child nodeId="node-0x1c566c50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1c566c50">
+    <command xml:space="preserve">push button</command>
+    <result xml:space="preserve">Water trickles out of the fountain and you greedily lap it up.
+
+It is fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="161">YES</temporary>
   </item>
   <item nodeId="node-0x1b0fe60">
     <command xml:space="preserve">lick fountain</command>
@@ -466,7 +555,6 @@ God it stinks like piss in here.
     <temporary score="92">YES</temporary>
     <children>
       <child nodeId="node-0x16a571b0" />
-      <child nodeId="node-0x1e9c060" />
       <child nodeId="node-0x1de9200" />
     </children>
   </item>
@@ -529,70 +617,6 @@ Hospital green, with plenty of tile.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="68">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e9c060">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Hallway
-Hospital green, with plenty of tile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1d01270" />
-    </children>
-  </item>
-  <item nodeId="node-0x1d01270">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Women&apos;s restroom
-How the fuck do they have a couch?!
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bd3d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bd3d40">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ddc8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ddc8a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Hallway
-Hospital green, with plenty of tile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="60">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b042e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b042e0">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Hallway
-Hospital green, with plenty of tile.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="59">YES</temporary>
   </item>
   <item nodeId="node-0x16a571b0">
     <command xml:space="preserve">look urinal</command>
@@ -814,6 +838,16 @@ God it stinks like piss in here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0x1c5304f0">
+    <command xml:space="preserve">eat cake</command>
+    <result xml:space="preserve">(first taking the urinal cake)
+It looks edible, but you should save it for later.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="162">YES</temporary>
   </item>
   <item nodeId="node-0x16a24f50">
     <command xml:space="preserve">take cake</command>
