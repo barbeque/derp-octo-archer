@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x1d78a30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x16959b90" />
+  <item nodeId="node-0x1d78a30">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+derp
+An Interactive Fiction by Dr. Mike Stedman and Sir Scott Hilbert, Esq.
+Release 1 / Serial number 121128 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">NO</temporary>
+    <children>
+      <child nodeId="node-0x1885350" />
+      <child nodeId="node-0xd02aaa0" />
+      <child nodeId="node-0x1d8d730" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d8d730">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e8a240" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e8a240">
+    <command xml:space="preserve">go 20</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d93690" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d93690">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0xd02aaa0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+20 yard line
+You feel as if you are getting further away from your goal.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x16959b90" />
+      <child nodeId="node-0x1b1fd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b1fd60">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d95750" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d95750">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x16a4fd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x16a4fd30">
+    <command xml:space="preserve">exits</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b01ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b01ea0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+20 yard line
+You feel as if you are getting further away from your goal.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x1803890" />
+    </children>
+  </item>
+  <item nodeId="node-0x1803890">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x16959b90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="17">YES</temporary>
+    <children>
+      <child nodeId="node-0x1de3460" />
+    </children>
+  </item>
+  <item nodeId="node-0x1de3460">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+10 yard line
+The sun blinds your eyes as you look down the ol&quot; football pitch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x1885350">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+</Skein>
