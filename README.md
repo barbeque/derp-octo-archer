@@ -1,0 +1,1 @@
+This is my attempt to learn Inform by writing an overly detailed text adventure.
